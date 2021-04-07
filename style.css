@@ -47,12 +47,6 @@ a {
     background-color: #f4f4f4;
 }
 
-.kontaktai
-{
-   color: lightgreen;
-   font-size: 16px;
-}
-
 .header .logo {
   display: block;
   float: left;
@@ -300,9 +294,7 @@ section a
 
 .manodarbai h3
 {
-    position: absolute;
-    left: 40%;
-    bottom: 40px;
+    margin-top: 20px;
     font-size: 23px;
 }
 
@@ -314,14 +306,9 @@ section a
         max-height: 200px;
     }
     
-    .manodarbai h3
-    {
-        bottom: 80px;
-    }
-    
     .manodarbai div
     {
-        max-width: 250px;
+        max-width: 300px;
     }
 }
 
