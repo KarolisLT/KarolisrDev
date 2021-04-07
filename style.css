@@ -310,13 +310,18 @@ section a
 {
     .manodarbai img
     {
-        max-width: 400px;
-        max-height: 350px;
+        max-width: 300px;
+        max-height: 200px;
+    }
+    
+    .manodarbai h3
+    {
+        bottom: 80px;
     }
     
     .manodarbai div
     {
-        max-width: 400px;
+        max-width: 250px;
     }
 }
 
