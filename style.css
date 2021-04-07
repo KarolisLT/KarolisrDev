@@ -273,7 +273,7 @@ section a
 .manodarbai
 {
     width: 100%;
-    height: 800px;
+    height: auto;
     text-align: center;
     background-image: linear-gradient(#d1d1d1, #6b6b6b)
 }
@@ -288,8 +288,8 @@ section a
 
 .manodarbai img
 {
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
     transition: 1s;
 }
 
