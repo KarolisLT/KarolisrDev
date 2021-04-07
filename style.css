@@ -306,6 +306,20 @@ section a
     font-size: 23px;
 }
 
+@media (max-width: 607px)
+{
+    .manodarbai img
+    {
+        max-width: 400px;
+        max-height: 350px;
+    }
+    
+    .manodarbai div
+    {
+        max-width: 400px;
+    }
+}
+
 
 
 
