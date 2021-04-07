@@ -1,45 +1,22 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vassi Photo</title>
-    <link rel="icon" type="image/png" href="LOGO/NoBg/IconNoBg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body> 
-    <nav>
-       <img src="LOGO/NoBg/IconNoBg.png" class="logo">
-        <ul>
-            <li><a href="#">Pradžia</a></li>
-            <li><a href="#">Apie</a></li>
-            <li><a href="#">Patirtis</a></li>
-            <li><a href="#">Kontaktai</a></li>
-        </ul>
-    </nav>
-    <!-- Phone Nav -->
-    <div class="nav">
-       <img src="LOGO/NoBg/IconNoBg.png" class="logophone">
-        <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>
-        <div class="menu">
-            <a href="#">Pradžia</a>
-            <a href="#">Apie</a>
-            <a href="#">Patirtis</a>
-            <a href="#">Kontaktai</a>
-        </div>
-    </div>
-    
-    <header>
-        <div class="layer">
-            <h1>Does Your Money <br> Need Speed?</h1>
-            <p>Our company can assist you with any aspect of investment management</p>
-        <a href="#">Get A Quote ></a>
-        </div>
-    </header>
-    
-    
-    
-    <script src="java.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+      <header class="header">
+            <img src="LOGO/NoBg/IconNoBg.png" class="logo">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span>&#9776;</span></label>
+            <ul class="menu">
+                <li><a href="#">Pradžia</a></li>
+                <li><a href="#">Apie</a></li>
+                <li><a href="#">Darbai</a></li>
+                <li><a href="#">Kontaktai</a></li>
+            </ul>
+        </header>
 </body>
 </html>
