@@ -357,6 +357,15 @@ header a:hover
     
 }
 
+@media (max-width: 744px)
+{
+    .navbar .menu
+    {
+        width: 100%;
+        right: -100%;
+    }
+}
+
 @media (max-width: 690px)
 {
     max-width 
